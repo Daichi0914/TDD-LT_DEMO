@@ -1,7 +1,5 @@
-const fizzByzz = () => {
-  return 1;
-};
+const fizzBuzz = require('../js/fizz.buzz')
 
 it('1を返すこと', () => {
-  expect(fizzByzz()).toBe(1);
+  expect(fizzBuzz()).toBe(1);
 });
