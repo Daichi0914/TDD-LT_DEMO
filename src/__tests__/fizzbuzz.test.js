@@ -13,10 +13,6 @@ it('入力した数字が返ってくること', () => {
   expect(fizzBuzz(2)).toBe(2);
 });
 
-it('3を入力すると、Fizzが返ってくること', () => {
-  expect(fizzBuzz(3)).toBe('Fizz');
-});
-
 it('3の倍数を入力すると、Fizzが返ってくること', () => {
   expect(fizzBuzz(3)).toBe('Fizz');
   expect(fizzBuzz(6)).toBe('Fizz');
