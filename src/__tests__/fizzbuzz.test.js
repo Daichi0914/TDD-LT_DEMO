@@ -6,6 +6,9 @@
   * 3と5の公倍数を入力すると、FizzBuzzが返ってくる
 */
 
+const fizzBuzz = (number) => {
+  return number;
+};
 it('入力した数字が返ってくること', () => {
   expect(fizzBuzz(1)).toBe(1);
   expect(fizzBuzz(2)).toBe(2);
