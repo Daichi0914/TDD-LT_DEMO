@@ -12,3 +12,7 @@ it('入力した数字が返ってくること', () => {
   expect(fizzBuzz(1)).toBe(1);
   expect(fizzBuzz(2)).toBe(2);
 });
+
+it('3を入力すると、Fizzが返ってくること', () => {
+  expect(fizzBuzz(3)).toBe('Fizz');
+});
